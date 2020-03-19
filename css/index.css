@@ -1,0 +1,178 @@
+.img2
+{
+	border-radius: 4px;
+
+}
+.b-r4
+{
+	border-radius: 4px;
+}
+.bor
+{
+
+	border:1px solid #cbced4;
+	
+}
+.gen-div
+{
+	width: 294px;
+	height: 175px;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+
+}
+.base-1
+{
+	color: #6c9ef0;
+}
+.base-2
+{
+	color:white;
+}
+.grid
+{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-template-rows: repeat(4,1fr);
+
+	justify-items:center;
+
+
+}
+.light
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 15px;
+	row-gap: 10px;
+}
+.pad
+{
+	padding:2px; 
+}
+.item-a
+{
+	grid-column: 1/-1;
+	grid-row: 1/-1;
+}
+.item-b
+{
+	grid-column: 5;
+	grid-row: 4;
+	
+}
+.wrap
+{
+	width: 25px;
+	height: 25px;
+	background-color: #6c9ef0;
+	border-radius: 50%;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+.btn:hover .dis 
+{
+
+	display: block;
+}
+
+.btn:hover .over
+{
+
+	background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7));
+}
+
+
+
+
+
+
+.dis
+{
+	display: none;
+}
+.item-c
+{
+	grid-column: 3;
+	grid-row: 2/4;
+	align-self: center;
+}
+.img-w
+{
+	width: 500px;
+	height: 500px;
+}
+.images-c
+{
+	display: none;
+}
+
+#sec1-p1:checked ~   .img-g3
+{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+}
+#sec1-n1:checked ~   .img-g2
+{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+
+
+}
+#sec1-p2:checked ~  .img-g1
+{
+	
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+}
+#sec1-n2:checked ~  .img-g3
+{
+	
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+}
+#sec1-p3:checked ~ .img-g2
+{
+	
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+}
+#sec1-n3:checked ~ .img-g1
+{
+
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+}
+.sec1-main input
+{
+	display: none;
+}
+.sec1-main
+{
+	    background: linear-gradient( black, transparent);
+
+}
+.back-div
+{
+	background-color:#028acf;
+    width: 20px;
+    height: 52px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius: 4px;
+}
